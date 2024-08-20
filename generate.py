@@ -3,8 +3,8 @@ import random
 
 def multiplications():
     for i in range(10):
-        randomNumber = random.randint(0, 10)
-        randomNumber1 = random.randint(0, 10)
+        randomNumber = random.randint(0, 12)
+        randomNumber1 = random.randint(0, 12)
 
         answer = -1
         while int(answer) != randomNumber * randomNumber1:
